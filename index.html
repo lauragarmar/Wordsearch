@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+
+   <!--  HEADER -->
+
+    <header class="header">
+        <nav class="nav">
+            <i class="fas fa-font"></i>
+            <h1 class="title"> Sopa de letras</h1>
+            <ul class="nav__ul">
+                <li class="nav__li"><a class="li__link" href="index.html">Home</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+<!-- SECTION -->
+
+<section class="section" id="game">
+    
+    <div class="options" id="options">
+        <h1 class="title_opt">Elige la dificultad: </h1>
+        <div class="options__inputs">
+            <input type="radio" class="radio" id="easy"><span class="inputs__text">Fácil</span> </input>
+            <input type="radio" class="radio" id="intermediate"><span class="inputs__text">Intermedio</span></input>
+            <input type="radio" class="radio" id="hard"><span class="inputs__text">Difícil</span></button>
+        </div>
+        
+        <button class="game" id="play">Jugar</button> 
+    </div>
+    <div class="container" id="container">
+        <div class="timer">
+            Tiempo de Juego:
+            <span class="reloj" id="Minutos">00</span><span class="reloj" id="Segundos">:00</span><span
+                            class="reloj" id="Centesimas">:00</span>
+        </div>
+        <div class="wordlist" id="wordlist">
+            <h4 class="wordlist__title">Lista de palabras:</h4>
+            <ul class="wordlist__ul" id="wordlist__ul">
+                 <!-- Aquí meto la lista de palabras -->
+            </ul>
+           
+        </div>
+</div>
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+<p class="footer__text">Página realizada por Laura García, 2021.</p>
+</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

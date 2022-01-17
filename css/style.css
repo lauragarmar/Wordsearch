@@ -1,0 +1,157 @@
+/* BODY STYLE */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    background-image: url("../assets/img/background.jpg");
+    
+}
+
+/* NAV STYLE */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+   
+}
+
+.nav__li{
+    list-style: none;
+
+}
+
+.li__link{
+    text-decoration: none;
+    color:#CD7BED;
+    padding:20px;
+}
+
+.logo{
+    height: 50px;
+    width: 50%;
+    margin: 10px 5px;
+    
+}
+
+.fas{
+    color: #CD7BED;
+    font-size:32px;
+    margin:10px 15px;
+}
+
+.title{
+    color: #CD7BED
+}
+
+/* SECTION STYLE */
+.section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    height:100vh;
+}
+
+/*CONTENEDOR OPCIONES PARA JUGAR Y BOTON*/
+
+.options{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border:3px solid black;
+    background-color: rgba(51, 51, 51, 0.897);
+    padding:40px;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+}
+
+.options__inputs{
+    display: flex;
+    padding:50px;
+}
+
+.radio{
+    margin-left: 1rem;
+    border: 0;
+    width: 0.9rem;
+    height: 0.9rem;
+}
+
+.inputs__text{
+    margin-left: 0.2rem;
+}
+
+.title_opt{
+   color:  #CD7BED;
+   font-family: 'Roboto', sans-serif;
+}
+
+.game{
+    background-color: #CD7BED;
+    color:#333;
+    padding:10px;
+    margin:10px;
+    width:100px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/*CONTENEDOR SOPA DE LETRAS*/
+
+.container{
+    display: none;
+    border:3px solid black;
+    background-color: rgba(51, 51, 51, 0.897);
+    padding:70px;
+    margin:10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.table{
+    border: 1px solid black;
+    background:#fff;
+}
+
+.timer{
+    background:rgba(255, 255, 255, 0.815);
+    border:1px solid black;
+    padding:10px;
+    text-align: center;
+    color: #CD7BED;
+	border-radius: 5px;
+    margin:10px;
+    font-size:medium
+}
+
+.level{
+    margin-bottom: 10px;
+    color:#CD7BED;
+    text-align: center;
+}
+
+/*Word list*/
+.wordlist__title{
+    margin-bottom: 10px;
+    color:#CD7BED;
+}
+
+.wordlist__li{
+    list-style: none;
+    color:#fff;
+}
+
+
+/*FOOTER*/
+
+.footer{
+    padding: 8px;
+    text-align: center;
+    background-color: #333;
+    color:#CD7BED;
+}
